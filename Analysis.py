@@ -41,6 +41,6 @@ def plot_all(days: int = 7, cella_name: str = None):
 
 
 plt_moving_average(days=7, cella_name='OV2')
-plt_moving_average(days=1, cella_name='OV2',marker = 'o',linestyle="None")
+plt_moving_average(days=1, cella_name='OV2', marker='o', linestyle="None")
 plt.xticks(rotation=45)
 plt.show()
